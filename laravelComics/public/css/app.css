@@ -1,0 +1,123 @@
+* {
+  font-family: "Greta Sans Medium", "Greta Sans Regular", Arial, sans-serif;
+}
+
+body {
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.container-80 {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-50 {
+  width: 50%;
+}
+
+.active {
+  color: blue;
+  border-bottom: 5px solid blue;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-80 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.container-80 li {
+  display: inline;
+  padding: 0 10px;
+}
+.container-80 a {
+  padding-bottom: 38px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.container-80 img {
+  height: 80px;
+}
+
+.container-jumbo {
+  height: 400px;
+  width: 100%;
+  background-color: gray;
+  background-image: url(../images/jumbotron.jpg);
+  background-size: cover;
+}
+
+.footer-bottom {
+  background-color: #303030;
+  height: 100px;
+}
+.footer-bottom .container-80 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.footer-bottom .container-80 .left button {
+  background-color: #303030;
+  border: 2px solid #0282F9;
+  margin-left: 30px;
+}
+.footer-bottom .container-80 .left button h3 {
+  color: white;
+}
+.footer-bottom .container-80 .right {
+  margin-right: 30px;
+}
+.footer-bottom .container-80 .right ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.footer-bottom .container-80 .right ul li h3 {
+  color: #0282F9;
+}
+.footer-bottom .container-80 .right ul li img {
+  margin-top: 5px;
+  height: 25px;
+}
+
+.footer-top {
+  background-image: url(../images/footer-bg.jpg);
+  background-size: contain;
+}
+.footer-top div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 400px;
+}
+.footer-top div .container-50 {
+  display: flex;
+  align-items: flex-start;
+}
+.footer-top div .container-50 h3 {
+  text-transform: uppercase;
+  color: white;
+}
+
+a {
+  color: antiquewhite;
+}
+
+.logo {
+  width: 50%;
+  background-image: url(../images/dc-logo-bg.png);
+  background-repeat: no-repeat;
+  background-size: 600px 600px;
+  background-position: 0 -110px;
+}

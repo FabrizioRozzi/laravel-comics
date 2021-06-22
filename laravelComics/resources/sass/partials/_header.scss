@@ -1,0 +1,22 @@
+.container-80 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  
+  li{
+    display: inline;
+    padding: 0 10px;
+  }
+
+  a{
+    padding-bottom: 38px;
+    text-transform: uppercase;
+    color: black;
+  }
+
+}
+
+.container-80 img{
+  height: 80px;
+}
