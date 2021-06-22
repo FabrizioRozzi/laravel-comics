@@ -1,0 +1,40 @@
+.prodotto{
+  padding-top: 80px ;
+  flex-basis: calc(100%/6);
+  h3{
+    
+    color: white;
+  }
+}
+
+
+
+
+.prodotto{
+  width: 100%;
+  position: relative;
+  
+  .relative{
+    width: auto;
+    position: absolute;
+    left: 0;
+    top: -40px;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    .ciccio{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }    
+}
+
+button{
+  margin: 30px 0;
+  padding: 0 50px;
+  background-color: blue;
+  color: white;
+  border: none;
+}

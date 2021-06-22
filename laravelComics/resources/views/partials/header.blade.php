@@ -4,31 +4,31 @@
   <nav>
     <ul>
       <li>
-        <a href="#">CHARACTERS</a>
+        <a href="{{url('characters')}}">CHARACTERS</a>
       </li>
       <li>
-        <a href="#">COMICS</a>
+        <a href="{{url('/')}}">COMICS</a>
       </li>
       <li>
-        <a href="#">TV</a>
+        <a href="{{url('tv')}}">TV</a>
       </li>
       <li>
-        <a href="#">GAMES</a>
+        <a href="{{url('games')}}">GAMES</a>
       </li>
       <li>
-        <a href="#">COLLECTIBLES</a>
+        <a href="{{url('collectibles')}}">COLLECTIBLES</a>
       </li>
       <li>
-        <a href="#">VIDEOS</a>
+        <a href="{{url('videos')}}">VIDEOS</a>
       </li>
       <li>
-        <a href="#">FANS</a>
+        <a href="{{url('fans')}}">FANS</a>
       </li>
       <li>
-        <a href="#">NEWS</a>
+        <a href="{{url('news')}}">NEWS</a>
       </li>
       <li>
-        <a href="#">SHOP</a>
+        <a href="{{url('shop')}}">SHOP</a>
       </li>
     </ul>
   </nav>
